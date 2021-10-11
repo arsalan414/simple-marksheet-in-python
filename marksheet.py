@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[83]:
-
-
 print(".....WELCOME TO THE PROGRAM.....");
 print("Enter obtained Marks out of 100");
 eng = float(input("English: "));
@@ -28,25 +22,12 @@ elif percentage >=40 and percentage <=100:
 elif percentage <40 and percentage <=100:
     grade = "F"
 else:
-    grade="Unknown"
-    
+    grade="Unknown"  
 
+    
 print("\n\n")
 print(".......Marksheet.......");
 print("Subject \tTotal marks \tObtained marks")
 print(f"ENGLISH \t100 \t\t{eng}\nIslamiat \t100 \t\t{isl}\nMathematics \t100 \t\t{maths}\n");
 
 print(f"percentage: {round(percentage,2)}% \tGrade: {grade} ")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
